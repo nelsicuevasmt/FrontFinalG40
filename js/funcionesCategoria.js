@@ -22,7 +22,7 @@ function postCategoria(){
         };
         
         $.ajax({
-            url:"http://129.153.58.207/api/Category/save",
+            url:"http://129.153.58.207:8080/api/Category/save",
             type:"POST",
             datatype:"JSON",
             contentType:"application/json; charset=utf-8",
